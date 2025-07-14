@@ -1,15 +1,16 @@
-"""
-find the area of a circle
-where r = 1.1
-formula for area = pi **r
-"""
-'''x=0
-def func():
-    x += 1
-    print(x)
-'''
+#QUESTION
 
-x=(5+15/3)**2/50
-print(x)
+#Write a Python program that calculates the area of a circle based on the radius
+#entered by the user.
 
-print("i love python")
+#Area of a circle= pi * (r *r)
+#where pi=22/7
+#r= input by the user
+
+#assign variables
+
+pi= 22/7
+r = float(input("raduis"  ))
+area= ((pi)* (r*r)) 
+
+print("The Area of the circle is", area)
