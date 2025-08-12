@@ -9,10 +9,10 @@
 
 #assign variables requiring user input
 
-P = float(input("amount:"  ))
-R = float(input("interest rate:"  ))
-T = int(input("times:" ))
+principal = float(input("amount: "))
+rate = float(input("interest rate: "))
+time = int(input("times: "))
 
-S_i= P * (R/100) * T
+simple_intrest= principal * (rate/100) * time
 
-print("Simple interest=", S_i)
+print("Simple interest=", simple_intrest)

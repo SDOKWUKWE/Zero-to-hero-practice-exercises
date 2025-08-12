@@ -8,6 +8,7 @@
 
 #assign variables
 #apply the input function
+import math
 
 b=float(input("base value: "))
 c=float(input("perpendicular value: "))
@@ -15,7 +16,7 @@ c=float(input("perpendicular value: "))
 a= (b**2) + (c**2)
 
 #find square_root of a
-square_root= a ** 0.5
+square_root= math.sqrt(a)
 print("Hypotenus is", square_root)
 
 
